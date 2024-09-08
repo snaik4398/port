@@ -23,3 +23,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
+
+
+How to add custom domain  using github pages and cloud flare
+https://www.youtube.com/watch?v=qOfG_Anaj2M
