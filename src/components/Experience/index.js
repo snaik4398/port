@@ -50,7 +50,8 @@ export const Title = styled.div`
 export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
-    max-width: 600px;
+    max-width: 1000px;
+    
     color: ${({ theme }) => theme.text_secondary};
     
     @media (max-width: 768px) {
@@ -74,7 +75,7 @@ export const Experience = () => {
         <Container id="experience">
             <Wrapper>
                 <Title>Experience</Title>
-                <Desc>My work experience as a Software Engineer/Web Developer on different companies and projects.</Desc>
+                <Desc>My work experience as a Software Engineer on different companies and projects.</Desc>
                 <TimelineSection>
                     <Timeline>
                         {experiences.map((experience, index) => (
