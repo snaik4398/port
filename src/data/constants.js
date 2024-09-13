@@ -18,7 +18,7 @@ export const Bio = {
   insta: "https://www.instagram.com/san0_0_/",
   // facebook: "https://www.facebook.com/sanjay.naik",
 };
-
+// for future logs refer https://devicon.dev/
 export const skills = [
   {
     title: "Language",
@@ -26,7 +26,7 @@ export const skills = [
       {
         name: "Java",
         image:
-          "https://seeklogo.com/images/J/java-logo-41D4155FC3-seeklogo.com.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
       },
       {
         name: "Python",
@@ -34,9 +34,9 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
-        name: "React Js",
+        name: "C++",
         image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
       },
       {
         name: "HTML",
@@ -55,6 +55,46 @@ export const skills = [
     ],
   },
   {
+    title: "Cloud Technologies & tools",
+    skills: [
+      {
+        name: "Jenkin",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg",
+      },
+      {
+        name: "Docker",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+      },
+      {
+        name: "Kubernetes",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg",
+      },
+      {
+        name: "Google Cloud",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg",
+      },
+    
+      {
+        name: "AWS",
+        // image:          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
+      },{
+        name: "Cloudflare",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg",
+     },{
+      name: "Linux",
+      image:
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+    },
+        ],
+  },
+  {
     title: "Framework",
     skills: [
       {
@@ -63,19 +103,30 @@ export const skills = [
           "https://camo.githubusercontent.com/9ee242f2c2b1eb587f7e42704b3a0629082aac88f66fff96d34723f777b07775/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f737072696e672d2532333644423333462e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d737072696e67266c6f676f436f6c6f723d7768697465",
       },
       {
+        name: "Spring",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
+      },
+      {
         name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+      },
+      {
+        name: "Vite Js",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
       },
       {
         name: "Python Flask",
         image:
-          "https://github.com/snaik4398/portfolio/blob/main/karkinos-Logo.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
       },
       {
-        name: "Graph Ql",
-        image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+        name: "React Js",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       },
-
       {
         name: "MySQL",
         image:
@@ -92,9 +143,15 @@ export const skills = [
       },
     ],
   },
+
   {
-    title: "Others: Libraries and Tools",
+    title: "Others: Libraries & Build Tools",
     skills: [
+      {
+        name: "Eclipse(Springboot:STS)",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original.svg",
+      },
       {
         name: "Git",
         image:
@@ -106,9 +163,14 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
+        name: "Kafka",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original-wordmark.svg",
+      },
+      {
         name: "Netlify",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original-wordmark.svg",
       },
       {
         name: "VS Code",
@@ -124,6 +186,11 @@ export const skills = [
         name: "Figma",
         image:
           "https://seeklogo.com/images/F/figma-logo-E4E21D3AEA-seeklogo.com.png",
+      },
+      {
+        name: "Notion",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg",
       },
       {
         name: "Bootstrap",
@@ -203,8 +270,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fccu4-2.fna.fbcdn.net/v/t39.30808-1/306505764_544703934125512_8837860358429950422_n.png?_nc_cat=108&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=l7RF4tUFfZcQ7kNvgE1tGSX&_nc_ht=scontent.fccu4-2.fna&_nc_gid=AzNP1_iEjqJq-ktiNgoYZgB&oh=00_AYBd7SoDY9XGzM9kOJLlhtUWlOAosYU7KgcqCgDlmDSnDQ&oe=66E3621C",
-    // img: "https://www.nuaodisha.com/images/Contents/NuaOdisha-111821-Rkl-Auto-Clg.png",
+    img: "https://www.nuaodisha.com/images/Contents/NuaOdisha-111821-Rkl-Auto-Clg.png",
     school: "Government Autonomous College, Rourkela, Odisha",
     date: "Augest 2017 - October 2020",
     grade: "8.60 CGPA",

@@ -313,8 +313,8 @@ export const NavBar = () => {
               color: "white",
               width: "max-content",
             }}
-            href="/"
-            target="_blank"
+            href={Bio.github}
+            target="display"
           >
             Github Profile
           </GitHubButton>

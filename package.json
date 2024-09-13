@@ -15,6 +15,7 @@
     "@testing-library/user-event": "^13.5.0",
     "emailjs": "^4.0.3",
     "emailjs-com": "^3.2.0",
+    "portfolio": "file:",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-helmet": "^6.1.0",
